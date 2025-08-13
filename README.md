@@ -17,6 +17,9 @@ Um remake moderno, acessível e estiloso do clássico jogo da forca – sem enfo
 
 </div>
 
+## 🎮 Link do Jogo
+ - https://alvarengazy.github.io/Forca_Jogo/
+
 ## ✨ Principais Recursos
 
 - 🎯 Categorias dinâmicas carregadas de `words.json` (fácil expandir)
@@ -115,11 +118,12 @@ Sugestões, issues e melhorias são muito bem-vindas.
 - Adapte para mobile fullscreen com PWA + ícone.
 
 ## 📜 Licença
-MIT – use livremente para fins educacionais ou comerciais com atribuição.
+Alvarengazy
 
 ---
 <div align="center">
 Feito com ❤️, criatividade e JavaScript. Divirta-se!<br>
 Se curtir ⭐ marque o repositório.
 </div>
+
 
