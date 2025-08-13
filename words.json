@@ -1,0 +1,22 @@
+{
+  "Países": ["Brasil","Argentina","Chile","Peru","Canadá","México","Japão","Portugal","Alemanha","França","Itália","Nigéria","Egito","Índia","China","Austrália","Espanha","Noruega","Suécia","Colômbia","Uruguai","Paraguai","Bolívia","Coreia","Islândia"],
+  "Animais": ["Elefante","Girafa","Cachorro","Gato","Ornitorrinco","Leão","Tubarão","Golfinho","Cavalo","Galinha","Borboleta","Formiga","Gavião","Pinguim","Zebra","Lobo","Caranguejo","Lagarto","Jacaré","Cobra","Macaco","Baleia","Águia"],
+  "Tecnologia": ["JavaScript","Framework","Computador","Algoritmo","Internet","Processador","Memória","Navegador","Interface","Programa","Servidor","Cliente","Protótipo","Blockchain","Microchip","Robótica","Banco de Dados","Virtualização"],
+  "Frutas": ["Banana","Maçã","Pera","Abacaxi","Manga","Abacate","Uva","Melancia","Melão","Laranja","Limão","Mamão","Cereja","Acerola","Goiaba","Maracujá"],
+  "Esportes": ["Futebol","Basquete","Voleibol","Atletismo","Natação","Ciclismo","Judô","Surfe","Escalada","Ginástica","Esgrima","Boxe","Handebol","Golfe","Skate"],
+  "Ciência": ["Física","Química","Biologia","Astronomia","Ecologia","Genética","Geologia","Anatomia","Matemática","Psicologia","Meteorologia","Zoologia","Botânica"],
+  "Cores": ["Vermelho","Azul","Amarelo","Verde","Roxo","Rosa","Laranja","Preto","Branco","Cinza","Turquesa","Magenta","Marrom","Bege"],
+  "Música": ["Melodia","Ritmo","Harmonia","Sinfonia","Orquestra","Percussão","Violoncelo","Guitarra","Bateria","Piano","Saxofone","Trompete","Flauta","Cantor"],
+  "Espaço": ["Galáxia","Planeta","Asteroide","Cometa","Satélite","Nebulosa","Buraco Negro","Constelação","Meteorito","Órbita","Lua","Estrela"],
+  "Comida": ["Pizza","Hambúrguer","Lasanha","Espaguete","Chocolate","Sorvete","Feijoada","Churrasco","Risoto","Panqueca","Tacos","Sushi","Ramen","Salada"],
+  "Profissões": ["Professor","Engenheiro","Médico","Arquiteto","Programador","Designer","Advogado","Biólogo","Enfermeiro","Piloto","Músico","Jornalista","Fotógrafo"],
+  "Objetos": ["Cadeira","Janela","Telefone","Relógio","Livro","Lâmpada","Teclado","Fone","Mochila","Tesoura","Copo","Prato","Mesa","Espelho"],
+  "Natureza": ["Montanha","Floresta","Oceano","Deserto","Vulcão","Cachoeira","Riacho","Lago","Praia","Tempestade","Neve","Granizo","Tsunami"],
+  "Mitologia": ["Zeus","Hera","Poseidon","Thor","Loki","Afrodite","Hércules","Atena","Apolo","Hades","Ícaro","Medusa","Odin","Fênix"],
+  "Cinema": ["Filme","Diretor","Roteiro","Personagem","Cenário","Trilogia","Sequência","Aventura","Comédia","Drama","Suspense","Documentário","Animação"],
+  "Clima": ["Chuva","Sol","Nublado","Temporal","Vento","Nevado","Calor","Frio","Umidade","Clima","Geada","Granizo"],
+  "Transporte": ["Carro","Avião","Navio","Bicicleta","Ônibus","Trem","Metrô","Helicóptero","Caminhão","Barco","Patinete","Skate","Trator"],
+  "Instrumentos": ["Violino","Guitarra","Bateria","Piano","Teclado","Flauta","Harpa","Tambor","Trompete","Saxofone","Clarinete","Violoncelo"],
+  "Corpo": ["Coração","Pulmão","Cérebro","Estômago","Olhos","Ouvidos","Nariz","Mão","Perna","Joelho","Coluna","Dente","Língua"],
+  "Verbos": ["Correr","Saltitar","Escrever","Programar","Desenhar","Cantar","Ler","Nadar","Pensar","Aprender","Brincar","Sonhar","Criar"]
+}

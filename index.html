@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jogo da Forca ⚡</title>
+  <meta name="description" content="Jogo da Forca moderno, acessível, com categorias, partículas e design dinâmico." />
+  <link rel="preload" href="words.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" tabindex="0">⏭️ Pular para o jogo</a>
+  <canvas id="bgParticles" aria-hidden="true"></canvas>
+  <header class="top-bar" role="banner">
+    <div class="logo" tabindex="0" aria-label="Jogo da Forca Home">🪢 Forca Neo</div>
+    <nav class="top-actions" aria-label="Ações Globais">
+      <button id="btnTheme" class="ghost" aria-pressed="false" aria-label="Alternar tema">🌗</button>
+      <button id="btnMute" class="ghost" aria-pressed="false" aria-label="Alternar sons">🔊</button>
+    </nav>
+  </header>
+  <main id="main" class="layout" tabindex="-1">
+    
+    <section id="screenMenu" class="screen active" aria-labelledby="menuTitle">
+  <h1 id="menuTitle" class="hero-title" aria-label="Jogo da Forca">Jogo da Forca <span class="hero-emoji" aria-hidden="true">🕹️</span><span class="spark">⚡</span></h1>
+
+      <details class="howto" open>
+        <summary>📘 Como jogar</summary>
+        <ol>
+          <li>Escolha uma categoria.</li>
+          <li>Use o teclado físico ou selecione letras na interface.</li>
+          <li>Você tem 8 tentativas (❤️) erradas.</li>
+          <li>Acerte todas as letras antes que a saúde acabe!</li>
+          <li>Pressione <kbd>Esc</kbd> para pausar.</li>
+        </ol>
+      </details>
+
+      <form id="formCategoria" class="categories" aria-label="Selecione uma categoria">
+        <fieldset>
+          <legend>🎯 Categorias</legend>
+          <div id="categoryList" class="category-list" role="list"></div>
+        </fieldset>
+        <div class="actions">
+          <button type="submit" id="btnStart" class="primary" disabled>🚀 Iniciar</button>
+        </div>
+      </form>
+    </section>
+
+    
+    <section id="screenGame" class="screen" aria-labelledby="gameTitle" hidden>
+      <div class="game-header">
+        <h2 id="gameTitle" class="game-category" aria-live="polite"></h2>
+        <div class="status-bar" role="status" aria-live="polite">
+          <div class="health" id="health" aria-label="Saúde restante" role="img"></div>
+          <div class="progress"><div id="progressBar"></div></div>
+        </div>
+        <button id="btnPause" class="ghost" aria-haspopup="dialog" aria-controls="dialogPause">⏸️ Pausar</button>
+      </div>
+
+      <div id="word" class="word" aria-label="Palavra secreta" aria-live="polite"></div>
+
+      <div id="keyboard" class="keyboard" role="group" aria-label="Teclado de letras">
+        
+      </div>
+      <div class="sr-only" aria-live="assertive" id="liveStatus"></div>
+    </section>
+
+  </main>
+
+  
+  <dialog id="dialogPause" aria-labelledby="pauseTitle">
+    <form method="dialog" class="dialog-inner">
+      <h3 id="pauseTitle">⏸️ Jogo Pausado</h3>
+      <p>O que deseja fazer?</p>
+      <menu class="dialog-actions">
+        <button value="continuar" class="primary">▶️ Continuar</button>
+        <button value="categoria">🗂️ Nova Categoria</button>
+        <button value="sair">🏠 Sair</button>
+      </menu>
+    </form>
+  </dialog>
+
+  
+  <dialog id="dialogResult" aria-labelledby="resultTitle">
+    <div class="dialog-inner">
+      <h3 id="resultTitle"></h3>
+      <p id="resultWord"></p>
+      <menu class="dialog-actions">
+        <button id="btnAgain" class="primary">🔁 Jogar de Novo</button>
+        <button id="btnMenu">🏠 Menu</button>
+      </menu>
+    </div>
+  </dialog>
+
+  <footer class="footer" role="contentinfo">
+    <p>Feito com ❤️ e JavaScript Moderno. Acessível & Responsivo.</p>
+  </footer>
+
+  <template id="tplCategoryItem">
+    <label class="cat-item">
+      <input type="radio" name="categoria" value="" />
+      <span class="label"></span>
+    </label>
+  </template>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
