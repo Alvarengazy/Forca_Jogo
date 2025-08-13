@@ -11,7 +11,7 @@ Um remake moderno, acessível e estiloso do clássico jogo da forca – sem enfo
 
 <br>
 
-<img src="docs/screenshot-dark.png" alt="Screenshot modo escuro" width="640" />
+<img width="2527" height="1067" alt="Image" src="https://github.com/user-attachments/assets/6f294959-946d-459d-a283-5a155c60f7fe" />
 <br>
 <sub>(adicione capturas reais em /docs para valor extra)</sub>
 
@@ -122,3 +122,4 @@ MIT – use livremente para fins educacionais ou comerciais com atribuição.
 Feito com ❤️, criatividade e JavaScript. Divirta-se!<br>
 Se curtir ⭐ marque o repositório.
 </div>
+
